@@ -1,0 +1,28 @@
+===== ENGLISH-HINDI TRANSLATION ANALYSIS REPORT =====
+
+1. OVERALL PERFORMANCE
+   Direct Model Average BLEU: 9.03
+   Noisy Channel Model Average BLEU: 8.14
+   Average Improvement: -0.89
+
+2. PERFORMANCE BY SENTENCE LENGTH
+   Length 1-5 words:
+      Direct: nan, Noisy Channel: nan, Difference: nan
+   Length 6-10 words:
+      Direct: 6.60, Noisy Channel: 4.11, Difference: -2.49
+   Length 11-15 words:
+      Direct: 11.15, Noisy Channel: 10.47, Difference: -0.67
+   Length 16-20 words:
+      Direct: 11.43, Noisy Channel: 9.27, Difference: -2.16
+   Length 21-25 words:
+      Direct: 6.63, Noisy Channel: 6.24, Difference: -0.40
+   Length 26-30 words:
+      Direct: 11.78, Noisy Channel: 11.68, Difference: -0.10
+   Length 31+ words:
+      Direct: 6.08, Noisy Channel: 5.92, Difference: -0.16
+
+3. KEY FINDINGS
+   - Noisy Channel model performs better in 33.0% of sentences
+   - Direct model performs better in 45.0% of sentences
+   - Equal performance in 22.0% of sentences
+   - Direct model performs particularly well on sentences of length: 6-10, 11-15, 16-20, 21-25, 26-30, 31+

@@ -1,0 +1,17 @@
+===== Corpus-level BLEU Scores =====
+Direct Model BLEU: 8.43
+Noisy Channel Model BLEU: 7.34
+Difference: -1.08
+
+===== Sentence-level BLEU Statistics =====
+Average Direct BLEU: 9.03
+Average Noisy Channel BLEU: 8.14
+Direct model wins: 45 sentences (45.0%)
+Noisy Channel wins: 33 sentences (33.0%)
+Ties: 22 sentences (22.0%)
+
+===== Parameters =====
+Alpha: 1.0
+Beam Size: 5
+Max Length: 100
+Sample Size: 100
